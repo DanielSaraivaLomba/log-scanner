@@ -1,0 +1,32 @@
+2010-10-06 09:11:51,307 [WorkerThread-9] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.TypeDocument - 5 } (encoding depth = 1): null
+2010-10-06 09:11:51,354 [WorkerThread-0] INFO  [ServerSession]: Processing command object: {class=com.dn.gaverzicht.dms.models.Document, type=get, key=115392}
+2010-10-06 09:11:51,360 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.DocumentStatus - 19935 } (encoding depth = 1): null
+2010-10-06 09:11:51,360 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.DocumentStatus - 19936 } (encoding depth = 1): null
+2010-10-06 09:11:51,363 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.DocumentGroup - 273293 } (encoding depth = 1): null
+2010-10-06 09:11:51,363 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for null (encoding depth = 1): com.dn.gaverzicht.dms.dao.HibernateDaoImpl@78aa78aa
+2010-10-06 09:11:51,363 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for null (encoding depth = 2): SingletonTargetSource for target: com.dn.gaverzicht.dms.dao.HibernateDaoImpl@78aa78aa
+2010-10-06 09:11:51,365 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.StoreImpl - 2 } (encoding depth = 1): null
+2010-10-06 09:11:51,365 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for null (encoding depth = 1): com.dn.gaverzicht.dms.models.EntityReference@790d790d
+2010-10-06 09:11:51,368 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.DocumentProperty - 667487 } (encoding depth = 1): null
+2010-10-06 09:11:51,368 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.DocumentProperty - 667488 } (encoding depth = 1): null
+2010-10-06 09:11:51,368 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.DocumentProperty - 667489 } (encoding depth = 1): null
+2010-10-06 09:11:51,368 [WorkerThread-0] DEBUG [DmsObjectDeterminator]: Object to encode for ObjectId { com.dn.gaverzicht.dms.models.TypeDocument - 5 } (encoding depth = 1): null
+2010-10-06 09:12:38,195 [inga1] ERROR [PacketConnectionHandler]: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:179)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:229)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:248)
+	at com.dn.athena.net.Packet.scanForPacketHeader(Packet.java:141)
+	at com.dn.athena.net.Packet.readFromStream(Packet.java:116)
+	at com.dn.athena.net.stream.StreamConnectionHandler.processPacket(StreamConnectionHandler.java:122)
+	at com.dn.athena.net.stream.StreamConnectionHandler.readIncoming(StreamConnectionHandler.java:102)
+	at com.dn.athena.net.stream.StreamConnectionHandler.run(StreamConnectionHandler.java:69)
+	at java.lang.Thread.run(Thread.java:735)
+2010-10-06 09:12:38,286 [inga1] INFO  [ServerSession]: Connection closed
+2010-10-06 09:12:38,308 [inga1] INFO  [PacketConnectionHandler]: Connection handler terminated
+2010-10-06 09:13:43,243 [WorkerThread-3] INFO  [ServerSession]: Processing command object: {prop=marks, class=com.dn.gaverzicht.dms.models.Document, type=get, key=114274}
+2010-10-06 09:13:56,091 [WorkerThread-19] INFO  [ServerSession]: Processing command object: {arguments=[114274, 0], type=request, name=startRendering}
+2010-10-06 09:13:56,091 [WorkerThread-19] INFO  [ServiceProvider]: Executing request startRendering with arguments [114274, 0] on service object { ReflectionServiceObject -> com.dn.gaverzicht.dms.services.DocumentService@4a3a4a3a }
+2010-10-06 09:02:11,550 [WorkerThread-4] INFO  [ServiceProvider]: Executing request getRendering with arguments [1286373729338-5317] on service object { ReflectionServiceObject -> com.dn.gaverzicht.dms.services.DocumentService@4a3a4a3a }
+2010-10-06 09:02:13,631 [WorkerThread-2] INFO  [ServiceProvider]: Executing request startRendering with arguments [114466, 0] on service object { ReflectionServiceObject -> com.dn.gaverzicht.dms.services.DocumentService@4a3a4a3a }
+2010-10-06 09:02:13,634 [WorkerThread-2] INFO  [ServiceProvider]: Service startRendering returned 1286373733634-5423
