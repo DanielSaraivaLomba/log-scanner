@@ -21,7 +21,7 @@ public class Main {
         final List<Rendering> listRenderings = new ArrayList<>(reportProcessor.getRenderings().values());
         final Report report = getReport(reportProcessor, listRenderings);
         createXmlReport(report);
-        System.out.println(report);
+        createJsonReport(report);
     }
 
     private static void createXmlReport(final Report report) {
@@ -29,8 +29,8 @@ public class Main {
         logWriter.write(report);
     }
 
-    private static void createFileReport(final Report report) {
-        final ILogWriter logWriter = new LogWriterToFile();
+    private static void createJsonReport(final Report report) {
+        final ILogWriter logWriter = new LogWriterToJSON();
         logWriter.write(report);
     }
 
