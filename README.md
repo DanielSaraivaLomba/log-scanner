@@ -1,4 +1,4 @@
-This application reads from a log file, process the data and writes it to .xml file (and also a .txt file).
+This application reads from a log file, process the data and writes it to .xml file (and also a .json file).
 
 To run:
 
